@@ -11,7 +11,7 @@ Namespace Destination
                 ' Define search words.
                 Dim words As String() = {"DX-B5000", "DX-RX800"}
                 ' Load a PDF document. 
-                documentProcessor.LoadDocument("..\..\Document.pdf")
+                documentProcessor.LoadDocument("..\..\..\Document.pdf")
                 ' Specify the search parameters.
                 Dim searchParameters As DevExpress.Pdf.PdfTextSearchParameters = New DevExpress.Pdf.PdfTextSearchParameters()
                 searchParameters.CaseSensitive = True
@@ -33,7 +33,7 @@ Namespace Destination
                 Next
 
                 ' Save the modified document.
-                documentProcessor.SaveDocument("..\..\Result.pdf")
+                documentProcessor.SaveDocument("..\..\..\Result.pdf")
             End Using
         End Sub
     End Class

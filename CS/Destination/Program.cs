@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics;
 using DevExpress.Pdf;
 
 namespace Destination {
@@ -12,7 +13,7 @@ namespace Destination {
                 string[] words = { "DX-B5000", "DX-RX800" };
 
                 // Load a PDF document. 
-                documentProcessor.LoadDocument(@"..\..\Document.pdf");
+                documentProcessor.LoadDocument(@"..\..\..\Document.pdf");
 
                 // Specify the search parameters.
                 PdfTextSearchParameters searchParameters = new PdfTextSearchParameters();
@@ -38,8 +39,9 @@ namespace Destination {
                     }
                 }
                 // Save the modified document.
-                documentProcessor.SaveDocument(@"..\..\Result.pdf");
+                documentProcessor.SaveDocument(@"..\..\..\Result.pdf");
             }
+            Process.Start(new ProcessStartInfo(@"..\..\..\Result.pdf") { UseShellExecute = true });
         }
     }
 }

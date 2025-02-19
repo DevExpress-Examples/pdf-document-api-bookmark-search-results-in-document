@@ -4,18 +4,21 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [Program.cs](./CS/Destination/Program.cs) (VB: [Program.vb](./VB/Destination/Program.vb))
-<!-- default file list end -->
 # PDF Document API - Bookmark Search Results in a Document
 
+This example shows how to create a bookmark with a destination corresponding to the found text in a document.
 
-This example shows how to create a bookmark with a destination corresponding to the found text in a document. 
+> [!IMPORTANT]
+> You need a license for the [DevExpress Office File API Subscription](https://www.devexpress.com/products/net/office-file-api/) or [DevExpress Universal Subscription](https://www.devexpress.com/subscriptions/universal.xml) to use this library in production code.
 
-<br/>
+## Files to Review
 
+* [Program.cs](./CS/Destination/Program.cs) (VB: [Program.vb](./VB/Destination/Program.vb))
+
+## Documentation
+
+* [Bookmarks in PDF Documents](https://docs.devexpress.com/OfficeFileAPI/114957/pdf-document-api/additional-content/bookmarks)
 
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
