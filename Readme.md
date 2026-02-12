@@ -20,7 +20,7 @@ This example shows how to create a bookmark with a destination corresponding to 
 * [Bookmarks in PDF Documents](https://docs.devexpress.com/OfficeFileAPI/114957/pdf-document-api/additional-content/bookmarks)
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=pdf-document-api-bookmark-search-results-in-document&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=pdf-document-api-bookmark-search-results-in-document&~~~was_helpful=no)
 
